@@ -458,3 +458,60 @@
   background-color: rgb(233, 90, 8);
   border: none;
 } 
+
+/* last-section */
+ .last-section {
+  width: 1440px;
+  height: 348px;
+  padding: 50px 160px 50px 160px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: white;
+  grid-column-gap: 110px;
+}
+
+.logo-text {
+  width: 359px;
+  height: 179px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 0px;
+}
+.beauty-text-div {
+  height: 81px;
+  width: 359px;
+}
+.flower-shop-text {
+  color: rgb(107, 114, 128);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.ul-home {
+  width: 85px;
+  height: 248px;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 10px;
+  padding: 0px;
+}
+.ul-home li {
+  list-style: none;
+}
+.ul-home li a {
+  text-decoration: none;
+  color: rgb(107, 114, 128);
+  font-size: 13px;
+}
+
+.icon-items {
+  width: 216px;
+  height: 36px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+} 
