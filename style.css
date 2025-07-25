@@ -74,3 +74,40 @@
   font-weight: 400;
   font-size: 16px;
 } 
+
+
+.first-section {
+  height: 460px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: end;
+  margin-bottom: 120px;
+}
+
+.left-side {
+  gap: 13px;
+}
+
+.head-items {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 89px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.some-text {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.hero-flower {
+  position: static;
+  width: 570px;
+  height: 355px;
+} 
