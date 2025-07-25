@@ -3,3 +3,74 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+} 
+
+/* font-Inter */
+ @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+} 
+
+/* font-noto-serif */
+
+ @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+} 
+
+/* text-color */
+ .text-color {
+  color: rgb(137, 135, 161);
+}
+
+.text-black {
+  color: rgb(37, 36, 50);
+}
+
+.text-orange {
+  color: rgb(233, 90, 8);
+} 
+
+/* nav-bar */
+.nav-bar {
+  height: 71px;
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 120px;
+}
+
+.logo {
+  position: static;
+  width: 135px;
+  height: 82px;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48;
+  list-style: none;
+  gap: 48px;
+  padding: 22px 0px 22px 0px;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+} 
